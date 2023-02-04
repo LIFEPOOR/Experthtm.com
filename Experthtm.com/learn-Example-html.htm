@@ -1,0 +1,1687 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth dark">
+<head>
+
+
+	<meta charset="utf-8">
+	<title>Learn HTML</title>
+	<meta name="description"
+	      content="Our free HTML tutorial for beginners will teach you HTML and how to create your website from the scratch.">
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="apple-touch-icon" href="/images/logos/192.png">
+	<meta name="theme-color" content="#42444e">
+	<link rel="shortcut icon" href="/favicon.ico" />
+
+			<link rel="preload" href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=optional" as="style">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=optional">
+
+	
+	
+		
+	
+	
+
+		<meta property="og:type" content="article" />
+	<meta property="og:title" content="Learn HTML" />
+	<meta property="og:description"
+	      content="Our free HTML tutorial for beginners will teach you HTML and how to create your website from the scratch." />
+	
+
+
+
+			<link rel="stylesheet" href="/build/css/sadlife.css">
+	
+	
+	</head>
+<body class="dark:bg-slate-900 dark:text-slate-400">
+
+<div class="font-nunito">
+	<div class="fixed w-full h-16 bg-blue-steel dark:bg-slate-900 text-white dark:text-slate-200 flex justify-center z-50 border-b border-gray-700 print:hidden">
+		<header class="container flex justify-between max-w-6xl items-center px-4 layout-header"><a aria-label="logo" href="/"><img src="/build/images/logo-color-w3.png" alt="w3docs logo" width="146" height="41"  /></a><form role="search" action="/search" target="_top"><div><input
+						class="bg-slate-700 hover:bg-slate-600 outline-0 border-0 focus:ring-0 px-2 py-1 rounded-full pl-4
+									 text-slate-400 dark:bg-slate-800 dark:highlight-white/5 dark:hover:bg-slate-700"
+						type="search"
+						name="q"
+						required
+						aria-label="search input"
+						placeholder="Search"
+						value=""
+				/><button type="submit" aria-label="search button"></button></div></form><div class="hidden navbar lg:block"><nav><ul class="hidden md:flex md:gap-8 items-center"><li><div class="dropdown"><button class="dropbtn flex items-center dark:text-slate-200 hover:text-blue-500">
+								Books
+							</button><div class="dropdown-content bg-blue-steel text-white dark:text-slate-200"><a href="/learn-Example-html.htm">
+										Learn HTML
+									</a><a href="//learn-Example-Css.html">
+										Learn CSS
+									</a><a href="/learn-Example-git.html">
+										Learn Git
+									</a><a href="/learn-Example-javascript.htm">
+										Learn Javascript
+									</a><a href="/learn-Example-php.htm">
+										Learn PHP
+									</a></div></div></li><li><div class="dropdown"><button class="dropbtn flex items-center dark:text-slate-200 hover:text-blue-500">
+								Exercises
+							</button><div class="dropdown-content bg-blue-steel text-white dark:text-slate-200"><a href="/exercise/html">
+										HTML
+									</a><a href="/exercise/javascript">
+										JavaScript
+									</a><a href="/exercise/git">
+										Git
+									</a><a href="/exercise/css">
+										CSS
+									</a><a href="/exercise/php">
+										PHP
+									</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                      
+						</li><li><a href="/quiz/" class="hover:text-blue-500">Quizzes</a></li><li><a href="/snippets" class="hover:text-blue-500">Snippets</a></li><li><a href="/tool/" class="hover:text-blue-500">Tools</a></li><li><div class="dropdown"><button class="dropbtn flex items-center w-16 h-8"><div class="w-6"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="head-moon hidden w-6 h-6 mr-2 inline-block text-blue-400 hover:text-blue-600"><path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" /></svg><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="head-sun hidden w-6 h-6 mr-2 inline-block text-blue-400 hover:text-blue-600"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" /></svg></div></button><div class="dropdown-content bg-blue-steel text-white" data-color-mode><a href="javascript:void(0)" data-color='dark' class="flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2 inline-block"><path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" /></svg>
+									Dark
+								</a><a href="javascript:void(0)" data-color='light'><svg xmlns="" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2 inline-block"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" /></svg>
+									Light
+								</a><a href="javascript:void(0)" data-color='theme'><svg xmlns="" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2 inline-block"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" /></svg>
+
+									System
+								</a></div></div></li></ul></nav></div></header>
+	</div>
+
+				<div class="hidden xl:block fixed bg-blue-steel dark:bg-slate-900 dark:border-r dark:border-gray-700 text-white w-60 pt-16 h-full z-10 overflow-auto left-aside">
+			<div class="fixed h-full overflow-y-auto px-4 pb-36 pt-4">
+					<div><nav class="chapter-left-menu left-menu"><ul class="w-52 hover:[&>li>a]:text-blue-400"><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							HTML Basics
+						</strong>
+                        <a href="/learn-Example-html/introduction.htm">HTML Introduction</a>
+                        <a href="/learn-Example-html/editors.htm">Editors &amp; Tools</a>
+                        <a href="/learn-Example-html/elements.htm">HTML Elements</a>
+                        <a href="/learn-Example-html/basic.htm">HTML Basic Tags</a>
+                        <a href="/learn-Example-html/attributes.htm">HTML Attributes</a>
+                        <a href="/learn-Example-html/headings.htm">HTML Headings</a>
+                        <a href="/learn-Example-html/formatting.htm">HTML Formatting</a>
+                        <a href="/learn-Example-html/links.htm">HTML Links</a>
+                        <a href="/learn-Example-html/lists.htm">HTML Lists</a>
+                        <a href="/learn-Example-html/colors.htm">HTML Colors</a>
+                        <a href="/learn-Example-html/comments.htm">HTML Comments</a>
+                        <a href="/learn-Example-html/tables.htm">HTML Tables</a>
+                        <a href="/learn-Example-html/elements.htm">HTML Blocks</a>
+                        <a href="/learn-Example-html/scripts.htm">HTML Scripts</a>
+                        <a href="/learn-Example-html/styles.htm">HTML Styles - CSS</a>
+                        <a href="/learn-Example-html/paths.htm">HTML File Paths</a>
+                        <a href="/learn-Example-html/computercode.htm">HTML Computercode</a>
+                        </li><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							HTML Templates
+						</strong>
+                        <a href="/learn-Example-html/templates.htm">Layout Templates</a>
+                        <a href="/learn-Example-html/form-templates.htm">Form Templates</a>
+                       </li><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							HTML 5
+						</strong>
+                        <a href="/learn-Example-html/introduction.htm">HTML5 Introduction</a>
+                        <a href="/learn-Example-html/elements-reference.htm">HTML5 Tags</a>
+                        <a href="/learn-Example-html/html5.htm">Semantic Elements</a>
+                        <a href="/learn-Example-html/video-in-html5.htm">Audio &amp; Video</a>
+                        <a href="/learn-Example-html/browser-support.htm">HTML5 Browser Support</a>
+                        <a href="/learn-Example-html/migration.htm">HTML5 Migration</a>
+                        </li><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							HTML References
+						</strong> 
+              <a href="/learn-Example-html/sets.htm>Character Sets</a>
+              <a href="/learn-Example-html/ASCII.htm">ASCII</a>
+              <a href="/learn-Example-html/8859-1.htm">ISO-8859-1</a>
+              <a href="/learn-Example-html/language-codes.htm">ISO Language Codes</a>
+              <a href="/learn-Example-html/html-unicode.htm">UTF-8 Encoding</a>
+              <a href="/learn-Example-html/entities.htm">HTML Entities</a>
+              <a href="/learn-Example-html/keyboard-shortcuts.htm">Keyboard Shortcuts</a>
+              <a href="/learn-Example-html/http-methods.htm">HTTP Methods</a>
+              <a href="/learn-Example-html/html-images.htm">HTML Images</a>
+              <a href="/learn-Example-html/http-status-messages.htm">HTTP Status Messages</a>
+              <a href="/learn-Example-html/mime-types.htm">MIME-Types</a>
+              <a href="/learn-Example-html/table-of-html-tags.htm">Table of HTML Tags</a>
+              <a href="/learn-Example-html/language.htm">XHTML</a>
+              <a href="/learn-Example-html/locators.htm">HTML URL</a></li>
+              <li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							HTML Tags
+						</strong>
+                        <a href="/learn-Example-html/deprecated-tags.htm">Deprecated Tags</a>
+                        <a href="/learn-Example-html/global-attributes.htm">HTML Global Attributes</a>
+                        <a href="/learn-Example-html/event-attributes.htm">Event Attributes</a>
+                        <a href="/learn-Example-html/html-tag.htm">&lt;!-- ... --&gt;</a>
+                        <a href="/learn-Example-html/declaration.htm">&lt;!DOCTYPE&gt;</a>
+                        <a href="/learn-Example-html/a-tag.htm">&lt;a&gt;</a>
+                        <a href="/learn-Example-html/abbr.htm">&lt;abbr&gt;</a>
+                        <a href="/learn-Example-html/acronym.htm">&lt;acronym&gt;</a>
+                        <a href="/learn-Example-html/address-tag.htm">&lt;address&gt;</a>
+                        <a href="/learn-Example-html/applet-tag.htm">&lt;applet&gt;</a>
+                        <a href="/learn-Example-html/html-area.htm">&lt;area&gt;</a>
+                        <a href="/learn-Example-html/html-article-tag.htm">&lt;article&gt;</a>
+                        <a href="/learn-Example-html/html-aside.htm">&lt;aside&gt;</a>
+                        <a href="/learn-Example-html/html-audio-tag.html">&lt;audio&gt;</a>
+                        <a href="/learn-Example-htmll/html-b-tag.htm">&lt;b&gt;</a>
+                        <a href="/learn-Example-html/html-base-tag.htm">&lt;base&gt;</a>
+                        <a href="/learn-Example-html/html-basefont.htm">&lt;basefont&gt;</a>
+                        <a href="/learn-Example-html/html-bdi-tag.htm">&lt;bdi&gt;</a>
+                        <a href="/learn-Example-html/html-bdo-tag.htm">&lt;bdo&gt;</a>
+                        <a href="/learn-Example-html/html-big-tag.htm">&lt;big&gt;</a>
+                        <a href="/learn-Example-html/html-blink-tag.htm">&lt;blink&gt;</a>
+                        <a href="/learn-Example-html/html-blockquote-tag.htm">&lt;blockquote&gt;</a>
+                        <a href="/learn-Example-html/html-body.htm">&lt;body&gt;</a>
+                        <a href="/learn-Example-html/html-br.html">&lt;br&gt;</a>
+                        <a href="/learn-Example-html/html-button.html">&lt;button&gt;</a>
+                        <a href="/learn-Example-html/canvas.htm">&lt;canvas&gt;</a>
+                        <a href="/learn-Example-html/caption.htm">&lt;caption&gt;</a>
+                        <a href="/learn-Example-html/center.htm">&lt;center&gt;</a>
+                        <a href="/learn-Example-html/cite.htm">&lt;cite&gt;</a>
+                        <a href="/learn-Example-html/code.htm">&lt;code&gt;</a>
+                        <a href="/learn-Example-html/col.htm">&lt;col&gt;</a>
+                        <a href="/learn-Example-html/colgroup.htm">&lt;colgroup&gt;</a>
+                        <a href="/learn-Example-html/data-tag.html">&lt;data&gt;</a>
+                        <a href="/learn-Example-html/datalist.htm">&lt;datalist&gt;</a>
+                        <a href="/learn-Example-html/dd-tag.htm">&lt;dd&gt;</a>
+                        <a href="/learn-Example-html/del-tag.htm">&lt;del&gt;</a>
+                        <a href="/learn-Example-html/details.htm">&lt;details&gt;</a>
+                        <a href="/learn-Example-html/dfn-tag.html">&lt;dfn&gt;</a>
+                        <a href="/learn-Example-html/dialog-tag.htm">&lt;dialog&gt;</a>
+                        <a href="/learn-Example-html/dir-tag.htm">&lt;dir&gt;</a>
+                        <a href="/learn-Example-html/div-tag.htm">&lt;div&gt;</a>
+                        <a href="/learn-Example-html/dl-tag.html">&lt;dl&gt;</a>
+                        <a href="/learn-Example-html/dt-tag.htm">&lt;dt&gt;</a>
+                        <a href="/learn-Example-html/em-tag.htm">&lt;em&gt;</a>
+                        <a href="/learn-Example-html/embed-tag.htm">&lt;embed&gt;</a>
+                        <a href="/learn-Example-html/fieldset-tag.htm">&lt;fieldset&gt;</a>
+                        <a href="/learn-Example-html/figcaption-tag.htm">&lt;figcaption&gt;</a>
+                        <a href="/learn-Example-html/html-figure-tag.htm">&lt;figure&gt;</a>
+                        <a href="/learn-Example-html/html-font-tag.htm">&lt;font&gt;</a>
+                        <a href="/learn-Example-html/html-footer-tag.htm">&lt;footer&gt;</a>
+                        <a href="/learn-Example-html/html-form-tag.htm">&lt;form&gt;</a>
+                        <a href="/learn-Example-html/html-frame-tag.htm">&lt;frame&gt;</a>
+                        <a href="/learn-Example-html/html-frameset-tag.htm">&lt;frameset&gt;</a>
+                        <a href="/learn-Example-html/html-h1-h6-tags.htm">&lt;h1&gt;-&lt;h6&gt;</a>
+                        <a href="/learn-Example-html/html-head-tag.htm">&lt;head&gt;</a>
+                    </li><li class="flex flex-col gap-1.5">
+                        <a href="/learn-Example-html/html-header-tag.htm">&lt;header&gt;</a>
+                        <a href="/learn-Example-html/html-hgroup-tag.htm">&lt;hgroup&gt;</a>
+                        <a href="/learn-Example-html/html-hr-tag.htm">&lt;hr&gt;</a>
+                        <a href="/learn-Example-html/html-html-tag.htm">&lt;html&gt;</a>
+                        <a href="/learn-Example-html/html-i-tag.htm">&lt;i&gt;</a>
+                        <a href="/learn-Example-html/html-iframe-tag.htm">&lt;iframe&gt;</a>
+                        <a href="/learn-Example-html/html-img-tag.htm">&lt;img&gt;</a>
+                        <a href="/learn-Example-html/html-input-tag.htm">&lt;input&gt;</a>
+                        <a href="/learn-Example-html/html-ins-tag.htm">&lt;ins&gt;</a>
+                        <a href="/learn-Example-html/html-isindex-tag.htm">&lt;isindex&gt;</a>
+                        <a href="/learn-Example-html/html-kbd-tag.htm">&lt;kbd&gt;</a>
+                        <a href="/learn-Example-html/html-keygen-tag.htm">&lt;keygen&gt;</a>
+                        <a href="/learn-Example-html/html-label-tag.htm">&lt;label&gt;</a>
+                        <a href="/learn-Example-html/html-legend-tag.htm">&lt;legend&gt;</a>
+                        <a href="/learn-Example-html/html-li-tag.htm">&lt;li&gt;</a>
+                        <a href="/learn-Example-html/html-link-tag.htm">&lt;link&gt;</a>
+                        <a href="/learn-Example-html/html-main-tag.htm">&lt;main&gt;</a>
+                        <a href="/learn-Example-html/html-map-tag.htm">&lt;map&gt;</a>
+                        <a href="/learn-Example-html/html-mark-tag.htm">&lt;mark&gt;</a>
+                        <a href="/learn-Example-html/html-marquee-tag.htm">&lt;marquee&gt;</a>
+                        <a href="/learn-Example-html/html-menu-tag.htm">&lt;menu&gt;</a>
+                        <a href="/learn-Example-html/html-menuitem-tag.htm">&lt;menuitem&gt;</a>
+                        <a href="/learn-Example-html/html-meta-tag.htm">&lt;meta&gt;</a>
+                        <a href="/learn-Example-html/html-meter-tag.htm">&lt;meter&gt;</a>
+                        <a href="/learn-Example-html/html-nav-tag.htm">&lt;nav&gt;</a>
+                        <a href="/learn-Example-html/html-nobr-tag.htm">&lt;nobr&gt;</a>
+                        <a href="/learn-Example-html/html-noframes-tag.htm">&lt;noframes&gt;</a>
+                        <a href="/learn-Example-html/html-noscript-tag.htm">&lt;noscript&gt;</a>
+                        <a href="/learn-Example-html.htm?">&lt;object&gt;</a>
+                        <a href="/learn-Example-html/html-ol-tag.html">&lt;ol&gt;</a>
+                        <a href="/learn-Example-html/html-optgroup-tag.htm">&lt;optgroup&gt;</a>
+                        <a href="/learn-Example-html/html-option-tag.htm">&lt;option&gt;</a>
+                        <a href="/learn-Example-html/html-output-tag.htm">&lt;output&gt;</a>
+                        <a href="/learn-Example-html/html-p-tag.htm">&lt;p&gt;</a>
+                        <a href="/learn-Example-html/html-param-tag.htm">&lt;param&gt;</a>
+                        <a href="/learn-Example-html/html-plaintext-tag.htm">&lt;plaintext&gt;</a>
+                        <a href="/learn-Example-html/html-picture-tag.htm">&lt;picture&gt;</a>
+                        <a href="/learn-Example-html/html-pre-tag.html">&lt;pre&gt;</a>
+                        <a href="/learn-Example-html/html-progress-tag.htm">&lt;progress&gt;</a>
+                        <a href="/learn-Example-html/html-q-tag.htm">&lt;q&gt;</a>
+                        <a href="/learn-Example-html/html-rb-tag.htm">&lt;rb&gt;</a>
+                        <a href="/learn-Example-html/html-rp-tag.htm">&lt;rp&gt;</a>
+                        <a href="/learn-Example-html/html-rt-tag.htm">&lt;rt&gt;</a>
+                        <a href="/learn-Example-html/html-rtc-tag.htm">&lt;rtc&gt;</a>
+                        <a href="/learn-Example-html/html-ruby-tag.htm">&lt;ruby&gt;</a>
+                        <a href="/learn-Example-html/html-s-tag.htm">&lt;s&gt;</a>
+                        <a href="/learn-Example-html/html-samp-tag.htm">&lt;samp&gt;</a>
+                        <a href="/learn-Example-html/html-script-tag.htm">&lt;script&gt;</a>
+                        <a href="/learn-Example-html/html-section-tag.htm">&lt;section&gt;</a>
+                        <a href="/learn-Example-html/html-select-tag.htm">&lt;select&gt;</a>
+                        <a href="/learn-Example-html/html-small-tag.htm">&lt;small&gt;</a>
+                        <a href="/learn-Example-html/html-source-tag.htm">&lt;source&gt;</a>
+                        <a href="/learn-Example-html/html-spacer-tag.htm">&lt;spacer&gt;</a>
+                        <a href="/learn-Example-html/html-span-tag.htm">&lt;span&gt;</a>
+                        <a href="/learn-Example-html/html-strike-tag.htm">&lt;strike&gt;</a>
+                    </li><li class="flex flex-col gap-1.5">
+                        <a href="/learn-Example-html/html-strong-tag.htm">&lt;strong&gt;</a>
+                        <a href="/learn-Example-html/html-style-tag.htm">&lt;style&gt;</a>
+                        <a href="/learn-Example-html/html-sub-tag.htm">&lt;sub&gt;</a>
+                        <a href="/learn-Example-html/html-summary-tag.htm">&lt;summary&gt;</a>
+                        <a href="/learn-Example-html/html-sup-tag.htm">&lt;sup&gt;</a>
+                        <a href="/learn-Example-html/html-svg-tag.htm">&lt;svg&gt;</a>
+                        <a href="/learn-Example-html/html-table-tag.htm">&lt;table&gt;</a>
+                        <a href="/learn-Example-html/html-tbody-tag.htm">&lt;tbody&gt;</a>
+                        <a href="/learn-Example-html/html-td-tag.htm">&lt;td&gt;</a>
+                        <a href="/learn-Example-html/html-template-tag.htm">&lt;template&gt;</a>
+                        <a href="/learn-Example-html/html-textarea-tag.htm">&lt;textarea&gt;</a>
+                        <a href="/learn-Example-html/html-tfoot-tag.htm">&lt;tfoot&gt;</a>
+                        <a href="/learn-Example-html/html-th-tag.htm">&lt;th&gt;</a>
+                        <a href="/learn-Example-html/html-thead-tag.htm">&lt;thead&gt;</a>
+                        <a href="/learn-Example-html/html-time-tag.htm">&lt;time&gt;</a>
+                        <a href="/learn-Example-html/html-title-tag.htm">&lt;title&gt;</a>
+                        <a href="/learn-Example-html/html-tr-tag.htm">&lt;tr&gt;</a>
+                        <a href="/learn-Example-html/html-track-tag.htm">&lt;track&gt;</a>
+                        <a href="/learn-Example-html/html-tt-tag.htm">&lt;tt&gt;</a>
+                        <a href="/learn-Example-html/html-u-tag.htm">&lt;u&gt;</a>
+                        <a href="/learn-Example-html/html-ul-tag.htm">&lt;ul&gt;</a>
+                        <a href="/learn-Example-html/html-var-tag.htm">&lt;var&gt;</a>
+                        <a href="/learn-Example-html/html-video.htm">&lt;video&gt;</a>
+                        <a href="/learn-Example-html/html-wbr-tag.htm">&lt;wbr&gt;</a>
+                        <a href="/learn-Example-html/html-xmp-tag.htm">&lt;xmp&gt;</a></li>
+                        <li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							Canvas Tutorial
+						</strong>
+                        <a href="/learn-Example-html/canvas.htm">Canvas Intro</a>
+                        <a href="/learn-Example-html/canvas-drawing.htm">Canvas Drawing</a>
+                        <a href="/learn-Example-html/coordinates.htm">Canvas Coordinates</a>
+                        <a href="/learn-Example-html/canvas-Gradients.htm">Canvas Gradients</a>
+                        <a href="/learn-Example-html/canvas-text.htm">Canvas Text</a>
+                        <a href="/learn-Example-html/canvas-images.htm">Canvas Images</a>
+                        <a href="/learn-Example-htmlcanvas-reference.htm">Canvas Reference</a>
+                    </li><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							SVG Tutorial
+						</strong>
+                        <a href="/learn-Example-html/svg.htm">SVG Intro</a>
+                        <a href="/learn-Example-html/in-html5.htm">SVG in HTML5</a>
+                        <a href="/learn-Example-html/vgrectangle.htm">SVG Rectangle</a>
+                        <a href="/learn-Example-html/svg-circle.htm">SVG Circle</a>
+                        <a href="/learn-Example-html/svg-ellipse.htm">SVG Ellipse</a>
+                        <a href="/learn-Example-html/svg-line.htm">SVG Line</a>
+                        <a href="/learn-Example-html/svg-polygon.htm">SVG Polygon</a>
+                        <a href="/learn-Example-html/polyline.htm">SVG Polyline</a>
+                        <a href="/learn-Example-html/svg-path.htm">SVG Path</a>
+                        <a href="/learn-Example-html/svg-text.htm">SVG Text</a>
+                        <a href="/learn-Example-html/svg-stroking.htm">SVG Stroking</a>
+                        <a href="/learn-Example-html/svg-intro.htm">SVG Filters Intro</a>
+                        <a href="/learn-Example-html/ffects.htm">SVG Blur Effects</a>
+                        <a href="/learn-Example-html/drop-shadows.htm">SVG Drop Shadows</a>
+                        <a href="/learn-Example-html/svg-linear.htm">SVG Linear</a>
+                        <a href="/learn-Example-html/svg-radial.htm">SVG Radial</a>
+                        <a href="/learn-html/svg-reference.htm">SVG Reference</a>
+                    </li><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							HTML Attributes
+						</strong>
+                        <a href="/learn-Example-html/attributes.htm">Deprecated Attributes</a>
+                        <a href="/learn-Example-html/class-attribute.htm">HTML Class Attribute</a>
+                        <a href="/learn-Example-html/html-id-attribute.htm">HTML id Attribute</a>
+                    </li><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							HTML Medialearn
+						</strong>
+                        <a href="/learn-Example-html/multimedia.htm">HTML Multimedia</a>
+                        <a href="/learn-Example-html/videos.htm">HTML YouTube Videos</a></li><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							HTML Formslearn
+						</strong>
+                        <a href="/learn-Example-html/forms.htm">HTML Forms</a>
+                    </li><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							HTML Attribute
+						</strong>
+                        <a href="/learn-Example-html/attribute.htm">alt</a>
+                        <a href="/learn-Example-html/attribute.htm">async</a>
+                        <a href="/learn-Example-html/accept-.htm">accept</a>
+                        <a href="/learn-Example-html/content.htm">content</a>
+                        <a href="/learn-Example-html/contenteditable.htm">contenteditable</a>
+                        <a href="/learn-Example-html/controls.htm">controls</a>
+                        <a href="/learn-Example-html/coords.htm">coords</a>
+                        <a href="/learn-Example-html/disabled.htm">disabled</a>
+                        <a href="/learn-Example-html/download.htm">download</a>
+                        <a href="/learn-Example-html/draggable.htm">draggable</a>
+                        <a href="/learn-Example-html/html-autocomplete-attribute.htm">autocomplete</a>
+                        <a href="/learn-Example-html/autofocus.htm">autofocus</a>
+                        <a href="/learn-Example-html/html-defer.htm">defer</a>
+                        <a href="/learn-Example-html/attribute.htm">dir</a> 
+                        <a href="/learn-Example-html/colspan.htm">colspan</a> 
+                        <a href="/learn-Example-html/accessket.htm" >accesskey</a>
+                        <a href="/learn-Example-html/action-attribute.htm">action</a>
+                        <a href="/learn-Example-html/autoplay.htm">autoplay</a>
+                        <a href="/learn-Example-html/checked.htm">checked</a>
+                        <a href="/learn-Example-html/accept-charset.htm">accept-charset</a></li></ul></nav></div>			</div>
+		</div>
+	
+	<div class="xl:ml-60 pt-16 min-h-screen">
+
+		<div class="grid grid-cols-12 gap-4">
+			<div class="col-span-12 md:col-span-9 scroll-pt-16">
+					<div class="print:text-black print:bg-white">
+											<div itemprop="articleBody" class="prose dark:prose-invert lg:prose-lg max-w-none p-8">
+
+		<h1 itemprop="name">
+			Learn HTML
+		</h1>
+
+		<div class="book-image text-center">
+<img  src="/uploads/media/default/0001/05/805cddb75d8fdc035886bc8d78487eef8b3845bb.png" width="768" height="300" alt="Learn HTML" class="mx-auto"/>
+</div>
+
+<p>Here is a free HTML tutorial that will teach you HTML (HyperText Markup Language) to start creating your website step by step. You can find everything related to HTML illustrated with examples for each chapter separately to help you fully understand the markup language.</p>
+
+<p>HTML, an acronym for HyperText Markup Language, is a primary markup language for creating websites. It consists of a series of codes used to structure texts, images, and other content to be displayed in a browser.</p>
+<p>Our HTML Book consists of several sections that cover all the needed information to enrich your HMTL knowledge.</p>
+
+
+<h2>HTML Basics</h2>
+
+<p>In the HTML Basics section, you will have a full understanding of <a href="/learn-html/html-editors.html">Editors and Tools</a> that you need when working on building web pages. It will inform you about the professional editors that web developers use for coding.</p>
+
+<p>Elements are the fundamentals of HTML. Each HTML document is made of elements, which are defined using tags. <a href="/learn-html/html-elements.html">HTML Elements</a> teaches you the types of HTML elements. It also highlights the difference between HTML tags and HTML elements that are often confused.</p>
+
+<p><a href="/learn-html/html-basic.html">HTML Basic Tags</a> are used to structure website content (text, hyperlinks, images, media, etc). Tags only "instruct" browsers how to show the content of the web page. HTML Tags chapter suggests the most frequently used tags in HTML with their examples.</p>
+
+<p><a href="/learn-html/html-attributes.html">HTML Attributes</a> are added to an HTML element to provide additional information about it. Book suggests lots of examples and the list of the most used attributes.</p>
+
+<p><a href="/learn-html/html-tags-for-text-formatting.html">HTML Formatting</a> sophisticated chapter lets you explore the categories of formatting tags with a brief description and examples.</p>
+
+<p>Websites contain different types of links that take you directly to other pages or allow navigating to a specific part of the page. Find out how you can define hyperlinks in the <a href="/learn-html/html-links.html">HTML Links</a> chapter and how to use different attributes with links and how to apply links on the image.</p> 
+
+<p>Our next <a href="/learn-css/css-color-names.html">HTML Color Names</a> chapter shows the ways of changing the color of the text in HTML. Also, find a 216 cross-browser color palette used for creating pages of websites.</p>
+
+<p><a href="/learn-html/html-tables.html">HTML Tables</a> section suggests the list of deprecated attributes, which means that they are no longer used in the mentioned tags and are replaced by other alternative attributes.</p>
+
+<p><a href="/learn-html/html-scripts.html">HTML Scripts</a> section highlights the way to embed script or reference to an executable script within an HTML document and to trigger scripts.</p>
+
+
+<h2>HTML Templates</h2>
+
+<p>This part of the book provides a collection of HTML <a href="/learn-html/html-layout-templates.html">Layout Templates</a> and <a href="/learn-html/html-form-templates.html">Form Templates</a> that presents basic website layouts and various kinds of forms that are created using only HTML and CSS.</p>
+
+<p><a href="/learn-html/html5-introduction.html">HTML 5</a> includes the introduction to HTML, as well as suggesting the main benefits and content models. Each of these models describes the type of elements it contains. You can also find a list of <a href="/learn-html/html5-elements-reference.html">HTML5 Tags</a> with their descriptions and semantic elements presented with examples. HTML5 allows embedding audio files without connecting third-party plugins.</p>
+
+<h2>HTML References</h2>
+
+<p>The part suggests character sets that are required to show the HTML page correctly. You can find <a href="/learn-html/html-ascii.html">ASCII</a> printable characters with their equivalent HTML entity codes, <a href="/learn-html/html-iso-8859-1.html">ISO 8859-1</a> symbols, characters, the list of the <a href="/learn-html/html-unicode-reference.html">UTF-8</a> character codes, the collection of character entities, math symbols, Greek letters with their entity numbers and names. The chapter also covers <a href="/learn-html/http-methods.html">HTTP Methods</a>,<a href="/learn-html/http-status-messages.html"> HTTP Status Messages</a>, Table of <a href="/learn-html/mime-types.html">MIME Types</a> and <a href="/learn-html/table-of-html-tags.html">Table of HTML Tags</a> divided into categories. Another <a href="/learn-html/html-images.html">HTML Images</a> chapter provides required and recommended image attributes, image floating, and modern image formats to choose from. On the <a href="/learn-html/xhtml-extensible-hypertext-markup-language.html">XHTML</a> page, you will gain an understanding of benefits and the difference between HTML and XHTML.</p>
+
+<h2>HTML Tags</h2>
+
+<p>HTML Tags presents the largest section with all HTML tags, including the deprecated ones. In the <a href="/learn-html/deprecated-html-tags.html">Deprecated Tags</a> chapter, you will read about the set of HTML deprecated tags with their alternative suggestions. Two other chapters include <a href="/learn-html/global-attributes.html">HTML Global Attributes</a> and <a href="/learn-html/global-event-attributes.html">Event Attributes</a> where you can find everything related to these topics.</p>
+
+<p>In our website, you can find the <a href="/tools/editor">HTML editor</a>, where you can edit the HTML code, and click "Submit" to see the result.</p>
+
+<p>HTML is not so difficult, so we are sure you will enjoy learning. After successfully completing the HTML book, you will have a challenge!</p>
+
+<p>Test yourself with this <a href="/quiz-start/html-basic">HTML Basic Quiz</a> and see how much you have learned.</p>
+
+<p><a href="/learn-html/html-introduction.html">Start learning</a> just now!</p>
+
+				
+	</div>
+
+	<div class="mt-4 text-right pb-8 px-8">
+		<a href="/learn-html/html-introduction.html"
+		   class="chapter-top-nav btn btn-blue">Next ?</a>
+	</div>
+				</div>
+			</div>
+
+										<div class="col-span-3 hidden md:block pl-2 pt-8 border-l border-gray-200 dark:border-gray-700 right-aside">
+								<div>
+    <div style="min-height: 600px;">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1328390942002432"
+     crossorigin="anonymous"></script>
+<!-- Right Side 1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1328390942002432"
+     data-ad-slot="1048956047"
+     data-ad-format="vertical"
+     ></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+  <div class=" relative py-5 text-center" style="height:100%">
+        <div class="quizzes-new bg-gray-600 text-white" id="aside-quiz-block" style="margin: 20px auto; max-width: 200px;">
+        <a class="text-white" href="https://www.w3docs.com/quiz/" style="display: block;
+text-align: center;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+padding: 10px 20px;
+font-family: Poppins, sans-serif;
+font-style: normal;">
+            Quizzes
+        </a>
+        <div class="text-gray-800 dark:text-white flex flex-col gap-1.5 items-center p-2 bg-gray-100 dark:bg-slate-800">
+
+            <a href="https://www.w3docs.com/quiz-start/html-basic">
+                HTML Basic
+            </a>
+
+            <a href="https://www.w3docs.com/quiz-start/angular">
+                Angular  Basic
+            </a>
+            <a href="https://www.w3docs.com/quiz-start/react">
+                React Basic
+            </a>
+
+            <a href="https://www.w3docs.com/quiz-start/git">
+                Git Basic
+            </a>
+
+            <a href="https://www.w3docs.com/quiz-start/css-basic">
+                CSS Basic
+            </a>
+
+            <a href="https://www.w3docs.com/quiz-start/javascript-basic">
+                JavaScript Basic
+            </a>
+
+            <a href="https://www.w3docs.com/quiz-start/ts-quiz">
+                TypeScript Basic
+            </a>
+
+            <a href="https://www.w3docs.com/quiz-start/es6-basic">
+                ES6 Basic
+            </a>
+
+            <a href="https://www.w3docs.com/quiz-start/vuejs">
+                Vue.js Basic
+            </a>
+
+            <a href="https://www.w3docs.com/quiz-start/php-basic">
+                PHP Basic
+            </a>
+
+        </div>
+    </div>
+  </div>
+</div>
+
+ <div style="position: sticky;  top: 100px;  margin-bottom: 35px;">
+           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1328390942002432"
+     crossorigin="anonymous"></script>
+<!-- Content Sticky -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1328390942002432"
+     data-ad-slot="8443800953"
+     data-ad-format="vertical"
+     ></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+      </div>
+					</div>
+					</div>
+
+					<div class="bg-blue-steel dark:bg-slate-900 dark:border-t border-gray-700 text-white dark:text-slate-400 print:hidden">
+				<footer class="layout-footer">
+	<div class="p-6 inline-block lg:pl-20 w-full lg:w-11/12">
+
+		<div class="pb-4 hover:[&>ul>li>ul>li>a]:text-blue-400">
+			        <ul class="flex flex-wrap justify-start sm:justify-evenly gap-12 md:gap-16">
+            
+                            <li class="first">        <span class="text-blue-500 mb-4 block text-lg">Quizzes</span>                <ul class="flex flex-col gap-1.5 menu_level_1">
+            
+                <li class="first">        <a href="/quiz-start/html-basic">HTML Basic</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/css-basic">CSS Basic</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/javascript-basic">Javascript Basic</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/php-basic">PHP basic</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/es6-basic">ES6 Basic</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/ts-quiz">TypeScript Basic</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/angular">Angular  Basic</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/react">React  Basic</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/sass">Sass  Basic</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/vuejs">Vue.js  Basic</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/git">Git  Basic</a>        
+    </li>
+
+    
+                <li class="last">        <a href="/quiz-start/sql">SQL  Basic</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li>        <span class="text-blue-500 mb-4 block text-lg">Snippets</span>                <ul class="flex flex-col gap-1.5 menu_level_1">
+            
+                <li class="first">        <a href="/snippets/nodejs.html">How To NodeJs</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/linux.html">How To Linux</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/angularjs.html">How To AngularJs</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/php.html">How To PHP</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/html.html">How To HTML</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/css.html">How To CSS</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/symfony.html">How To Symfony</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/google-maps.html">How To Google Maps</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/git.html">How To Git</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/apache.html">How To Apache</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/javascript.html">How To JavaScript</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/java.html">How To Java</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/vue-js.html">How To Vue.js</a>        
+    </li>
+
+    
+                <li class="last">        <a href="/snippets/python.html">How To Python</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li>        <span class="text-blue-500 mb-4 block text-lg">Our Books</span>                <ul class="flex flex-col gap-1.5 menu_level_1">
+            
+                <li class="first">        <a href="/learn-html.html">Learn HTML</a>        
+    </li>
+
+    
+                <li>        <a href="/learn-css.html">Learn CSS</a>        
+    </li>
+
+    
+                <li>        <a href="/learn-git.html">Learn Git</a>        
+    </li>
+
+    
+                <li>        <a href="/learn-javascript.html">Learn Javascript</a>        
+    </li>
+
+    
+                <li>        <a href="/learn-php.html">Learn PHP</a>        
+    </li>
+
+    
+                <li>        <span class="text-blue-500 mb-3 mt-5 block text-lg">Exercises</span>        
+    </li>
+
+    
+                <li>        <a href="/exercise/html">HTML</a>        
+    </li>
+
+    
+                <li>        <a href="/exercise/javascript">JavaScript</a>        
+    </li>
+
+    
+                <li>        <a href="/exercise/git">Git</a>        
+    </li>
+
+    
+                <li>        <a href="/exercise/css">CSS</a>        
+    </li>
+
+    
+                <li class="last">        <a href="/exercise/php">PHP</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li>        <span class="text-blue-500 mb-4 block text-lg">Our Tools</span>                <ul class="flex flex-col gap-1.5 menu_level_1">
+            
+                <li class="first">        <a href="/keyboard">Typing Test</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/color-picker">Color Picker</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/html-encoder/">HTML Encoder</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/editor">HTML Editor</a>        
+    </li>
+
+    
+                <li>        <a href="/css3-maker/border-radius">CSS Maker</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/password-generator">Password Generator</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/image-base64">Base 64</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/code-diff/">Code Diff</a>        
+    </li>
+
+    
+                <li>        <a href="/nx/json-beautify">JSON Beautifier</a>        
+    </li>
+
+    
+                <li class="last">        <a href="/nx/css-beautify">CSS Beautifier</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class="last">        <span class="text-blue-500 mb-4 block text-lg">String Functions</span>                <ul class="flex flex-col gap-2 menu_level_1">
+            
+                <li class="first">        <a href="/tools/string-length-calculator">String Length Calculator</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-md5-generator">String to MD5 Hash Generator</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-sha256-generator">String to Sha256 Hash Generator</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-revers">String Reverse</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-url-encoder">URL Encoder</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-url-decoder">URL Decoder</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-base64-encoder">Base 64 Encoder</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-base64-decoder">Base 64 Decoder</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-remove-extra-spaces">Extra Spaces Remover</a>        
+    </li>
+
+    
+                <li class="last">        <a href="/tools/string-convert-lowercase">String to Lowercase Converter</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+
+    </ul>
+
+		</div>
+
+		<div class="py-8 border-t border-gray-700 flex gap-4 flex-col md:flex-row items-center md:justify-between">
+			<div>
+				        <ul class="flex gap-4">
+            
+                <li class="first">        <a href="/about-us">About Us</a>        
+    </li>
+
+    
+                <li class="last">        <a href="/privacy-policy">Privacy Policy for W3Docs</a>        
+    </li>
+
+
+    </ul>
+
+			</div>
+
+			<a href="/" aria-label="w3docs homepage">
+				<img src="/build/images/footer-logo.png"
+				     alt="logo"
+				     width="111"
+				     height="30" />
+
+			</a>
+
+			<div class="flex gap-2">
+				<strong>Follow Us</strong>
+				<a id="follows-fb" href="https://www.facebook.com/w3docs" target="_blank"
+				   aria-label="follow on facebook" rel="noopener">
+					<img src="/build/images/facebook.svg" width="24" alt="facebook" />
+				</a>
+
+				<a id="follows-tt" href="https://twitter.com/w3docs" target="_blank"
+				   aria-label="follow on twitter"
+				   rel="noopener">
+					<img src="/build/images/twitter.svg" width="24" alt="twitter" />
+				</a>
+			</div>
+
+		</div>
+		<div class="pt-8 text-center border-t border-gray-700">
+			<small>Company &copy; W3docs. All rights reserved.</small>
+		</div>
+	</div>
+</footer>
+
+			</div>
+			</div>
+
+</div>
+</body>
+</html>
+<!doctype html>
+<html lang="en" class="scroll-smooth dark">
+<head>
+
+
+	<meta charset="utf-8">
+	<title>Learn HTML</title>
+	<meta name="description"
+	      content="Our free HTML tutorial for beginners will teach you HTML and how to create your website from the scratch.">
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="apple-touch-icon" href="/images/logos/192.png">
+	<meta name="theme-color" content="#42444e">
+	<link rel="shortcut icon" href="/favicon.ico" />
+
+			<link rel="preload" href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=optional" as="style">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=optional">
+
+	
+	
+		
+	
+	<meta property="og:url"
+	      content="https://www.w3docs.com/learn-html.html" />
+
+		<meta property="og:type" content="article" />
+	<meta property="og:title" content="Learn HTML" />
+	<meta property="og:description"
+	      content="Our free HTML tutorial for beginners will teach you HTML and how to create your website from the scratch." />
+	
+
+
+
+			<link rel="stylesheet" href="/build/css/sadlife.css">
+	
+	
+	</head>
+<body class="dark:bg-slate-900 dark:text-slate-400">
+
+<div class="font-nunito">
+	<div class="fixed w-full h-16 bg-blue-steel dark:bg-slate-900 text-white dark:text-slate-200 flex justify-center z-50 border-b border-gray-700 print:hidden">
+		<header class="container flex justify-between max-w-6xl items-center px-4 layout-header"><a aria-label="logo" href="/"><img src="/build/images/logo-color-w3.png" alt="w3docs logo" width="146" height="41"  /></a><form role="search" action="/search" target="_top"><div><input
+						class="bg-slate-700 hover:bg-slate-600 outline-0 border-0 focus:ring-0 px-2 py-1 rounded-full pl-4
+									 text-slate-400 dark:bg-slate-800 dark:highlight-white/5 dark:hover:bg-slate-700"
+						type="search"
+						name="q"
+						required
+						aria-label="search input"
+						placeholder="Search"
+						value=""
+				/><button type="submit" aria-label="search button"></button></div></form><div class="hidden navbar lg:block"><nav><ul class="hidden md:flex md:gap-8 items-center"><li><div class="dropdown"><button class="dropbtn flex items-center dark:text-slate-200 hover:text-blue-500">
+								Books
+							</button><div class="dropdown-content bg-blue-steel text-white dark:text-slate-200"><a href="/learn-html.html">
+										Learn HTML
+									</a><a href="/learn-css.htm">
+										Learn CSS
+									</a><a href="/learn-git.htm">
+										Learn Git
+									</a><a href="/learn-javascript.htm">
+										Learn Javascript
+									</a><a href="/learn-php.htm">
+										Learn PHP
+									</a></div></div></li><li><div class="dropdown"><button class="dropbtn flex items-center dark:text-slate-200 hover:text-blue-500">
+								Exercises
+							</button><div class="dropdown-content bg-blue-steel text-white dark:text-slate-200"><a href="/exercise/html">
+										HTML
+									</a><a href="/exercise/javascript">
+										JavaScript
+									</a><a href="/exercise/git">
+										Git
+									</a><a href="/exercise/css">
+										CSS
+									</a><a href="/exercise/php">
+										PHP
+									</a></div></div></li><li><a href="/course" aria-current="page"
+						   class="nav-link text-decoration-none hover:text-blue-500 nuxt-link-exact-active nuxt-link-active"
+						>
+							Courses
+						</a></li><li><a href="/quiz/" class="hover:text-blue-500">Quizzes</a></li><li><a href="/snippets" class="hover:text-blue-500">Snippets</a></li><li><a href="/tool/" class="hover:text-blue-500">Tools</a></li><li><div class="dropdown"><button class="dropbtn flex items-center w-16 h-8"><div class="w-6"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="head-moon hidden w-6 h-6 mr-2 inline-block text-blue-400 hover:text-blue-600"><path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" /></svg><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="head-sun hidden w-6 h-6 mr-2 inline-block text-blue-400 hover:text-blue-600"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" /></svg></div></button><div class="dropdown-content bg-blue-steel text-white" data-color-mode><a href="javascript:void(0)" data-color='dark' class="flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2 inline-block"><path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" /></svg>
+									Dark
+								</a><a href="javascript:void(0)" data-color='light'><svg xmlns="" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2 inline-block"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" /></svg>
+									Light
+								</a><a href="javascript:void(0)" data-color='theme'><svg xmlns="" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2 inline-block"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" /></svg>
+
+									System
+								</a></div></div></li></ul></nav></div></header>
+	</div>
+
+				<div class="hidden xl:block fixed bg-blue-steel dark:bg-slate-900 dark:border-r dark:border-gray-700 text-white w-60 pt-16 h-full z-10 overflow-auto left-aside">
+			<div class="fixed h-full overflow-y-auto px-4 pb-36 pt-4">
+					<div><nav class="chapter-left-menu left-menu"><ul class="w-52 hover:[&>li>a]:text-blue-400"><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							HTML Basics
+						</strong>
+                        <a href="/learn-Example-html/introduction.htm">HTML Introduction</a>
+                        <a href="/learn-Example-html/editors.htm">Editors &amp; Tools</a>
+                        <a href="/learn-Example-html/elements.htm">HTML Elements</a>
+                        <a href="/learn-Example-html/basic.htm">HTML Basic Tags</a>
+                        <a href="/learn-Example-html/attributes.htm">HTML Attributes</a>
+                        <a href="/learn-Example-html/headings.htm">HTML Headings</a>
+                        <a href="/learn-Example-html/formatting.htm">HTML Formatting</a>
+                        <a href="/learn-Example-html/links.htm">HTML Links</a>
+                        <a href="/learn-Example-html/lists.htm">HTML Lists</a>
+                        <a href="/learn-Example-html/colors.htm">HTML Colors</a>
+                        <a href="/learn-Example-html/comments.htm">HTML Comments</a>
+                        <a href="/learn-Example-html/tables.htm">HTML Tables</a>
+                        <a href="/learn-Example-html/elements.htm">HTML Blocks</a>
+                        <a href="/learn-Example-html/scripts.htm">HTML Scripts</a>
+                        <a href="/learn-Example-html/styles.htm">HTML Styles - CSS</a>
+                        <a href="/learn-Example-html/paths.htm">HTML File Paths</a>
+                        <a href="/learn-Example-html/computercode.htm">HTML Computercode</a>
+                        </li><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							HTML Templates
+						</strong>
+                        <a href="/learn-Example-html/templates.htm">Layout Templates</a>
+                        <a href="/learn-Example-html/form-templates.htm">Form Templates</a>
+                       </li><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							HTML 5
+						</strong>
+                        <a href="/learn-Example-html/introduction.htm">HTML5 Introduction</a>
+                        <a href="/learn-Example-html/elements-reference.htm">HTML5 Tags</a>
+                        <a href="/learn-Example-html/html5.htm">Semantic Elements</a>
+                        <a href="/learn-Example-html/video-in-html5.htm">Audio &amp; Video</a>
+                        <a href="/learn-Example-html/browser-support.htm">HTML5 Browser Support</a>
+                        <a href="/learn-Example-html/migration.htm">HTML5 Migration</a>
+                        </li><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							HTML References
+						</strong> 
+              <a href="/learn-Example-html/sets.htm>Character Sets</a>
+              <a href="/learn-Example-html/ASCII.htm">ASCII</a>
+              <a href="/learn-Example-html/8859-1.htm">ISO-8859-1</a>
+              <a href="/learn-Example-html/language-codes.htm">ISO Language Codes</a>
+              <a href="/learn-Example-html/html-unicode.htm">UTF-8 Encoding</a>
+              <a href="/learn-Example-html/entities.htm">HTML Entities</a>
+              <a href="/learn-Example-html/keyboard-shortcuts.htm">Keyboard Shortcuts</a>
+              <a href="/learn-Example-html/http-methods.htm">HTTP Methods</a>
+              <a href="/learn-Example-html/html-images.htm">HTML Images</a>
+              <a href="/learn-Example-html/http-status-messages.htm">HTTP Status Messages</a>
+              <a href="/learn-Example-html/mime-types.htm">MIME-Types</a>
+              <a href="/learn-Example-html/table-of-html-tags.htm">Table of HTML Tags</a>
+              <a href="/learn-Example-html/language.htm">XHTML</a>
+              <a href="/learn-Example-html/locators.htm">HTML URL</a></li>
+              <li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							HTML Tags
+						</strong>
+                        <a href="/learn-Example-html/deprecated-tags.htm">Deprecated Tags</a>
+                        <a href="/learn-Example-html/global-attributes.htm">HTML Global Attributes</a>
+                        <a href="/learn-Example-html/event-attributes.htm">Event Attributes</a>
+                        <a href="/learn-Example-html/html-tag.htm">&lt;!-- ... --&gt;</a>
+                        <a href="/learn-Example-html/declaration.htm">&lt;!DOCTYPE&gt;</a>
+                        <a href="/learn-Example-html/a-tag.htm">&lt;a&gt;</a>
+                        <a href="/learn-Example-html/abbr.htm">&lt;abbr&gt;</a>
+                        <a href="/learn-Example-html/acronym.htm">&lt;acronym&gt;</a>
+                        <a href="/learn-Example-html/address-tag.htm">&lt;address&gt;</a>
+                        <a href="/learn-Example-html/applet-tag.htm">&lt;applet&gt;</a>
+                        <a href="/learn-Example-html/html-area.htm">&lt;area&gt;</a>
+                        <a href="/learn-Example-html/html-article-tag.htm">&lt;article&gt;</a>
+                        <a href="/learn-Example-html/html-aside.htm">&lt;aside&gt;</a>
+                        <a href="/learn-Example-html/html-audio-tag.html">&lt;audio&gt;</a>
+                        <a href="/learn-Example-htmll/html-b-tag.htm">&lt;b&gt;</a>
+                        <a href="/learn-Example-html/html-base-tag.htm">&lt;base&gt;</a>
+                        <a href="/learn-Example-html/html-basefont.htm">&lt;basefont&gt;</a>
+                        <a href="/learn-Example-html/html-bdi-tag.htm">&lt;bdi&gt;</a>
+                        <a href="/learn-Example-html/html-bdo-tag.htm">&lt;bdo&gt;</a>
+                        <a href="/learn-Example-html/html-big-tag.htm">&lt;big&gt;</a>
+                        <a href="/learn-Example-html/html-blink-tag.htm">&lt;blink&gt;</a>
+                        <a href="/learn-Example-html/html-blockquote-tag.htm">&lt;blockquote&gt;</a>
+                        <a href="/learn-Example-html/html-body.htm">&lt;body&gt;</a>
+                        <a href="/learn-Example-html/html-br.html">&lt;br&gt;</a>
+                        <a href="/learn-Example-html/html-button.html">&lt;button&gt;</a>
+                        <a href="/learn-Example-html/canvas.htm">&lt;canvas&gt;</a>
+                        <a href="/learn-Example-html/caption.htm">&lt;caption&gt;</a>
+                        <a href="/learn-Example-html/center.htm">&lt;center&gt;</a>
+                        <a href="/learn-Example-html/cite.htm">&lt;cite&gt;</a>
+                        <a href="/learn-Example-html/code.htm">&lt;code&gt;</a>
+                        <a href="/learn-Example-html/col.htm">&lt;col&gt;</a>
+                        <a href="/learn-Example-html/colgroup.htm">&lt;colgroup&gt;</a>
+                        <a href="/learn-Example-html/data-tag.html">&lt;data&gt;</a>
+                        <a href="/learn-Example-html/datalist.htm">&lt;datalist&gt;</a>
+                        <a href="/learn-Example-html/dd-tag.htm">&lt;dd&gt;</a>
+                        <a href="/learn-Example-html/del-tag.htm">&lt;del&gt;</a>
+                        <a href="/learn-Example-html/details.htm">&lt;details&gt;</a>
+                        <a href="/learn-Example-html/dfn-tag.html">&lt;dfn&gt;</a>
+                        <a href="/learn-Example-html/dialog-tag.htm">&lt;dialog&gt;</a>
+                        <a href="/learn-Example-html/dir-tag.htm">&lt;dir&gt;</a>
+                        <a href="/learn-Example-html/div-tag.htm">&lt;div&gt;</a>
+                        <a href="/learn-Example-html/dl-tag.html">&lt;dl&gt;</a>
+                        <a href="/learn-Example-html/dt-tag.htm">&lt;dt&gt;</a>
+                        <a href="/learn-Example-html/em-tag.htm">&lt;em&gt;</a>
+                        <a href="/learn-Example-html/embed-tag.htm">&lt;embed&gt;</a>
+                        <a href="/learn-Example-html/fieldset-tag.htm">&lt;fieldset&gt;</a>
+                        <a href="/learn-Example-html/figcaption-tag.htm">&lt;figcaption&gt;</a>
+                        <a href="/learn-Example-html/html-figure-tag.htm">&lt;figure&gt;</a>
+                        <a href="/learn-Example-html/html-font-tag.htm">&lt;font&gt;</a>
+                        <a href="/learn-Example-html/html-footer-tag.htm">&lt;footer&gt;</a>
+                        <a href="/learn-Example-html/html-form-tag.htm">&lt;form&gt;</a>
+                        <a href="/learn-Example-html/html-frame-tag.htm">&lt;frame&gt;</a>
+                        <a href="/learn-Example-html/html-frameset-tag.htm">&lt;frameset&gt;</a>
+                        <a href="/learn-Example-html/html-h1-h6-tags.htm">&lt;h1&gt;-&lt;h6&gt;</a>
+                        <a href="/learn-Example-html/html-head-tag.htm">&lt;head&gt;</a>
+                    </li><li class="flex flex-col gap-1.5">
+                        <a href="/learn-Example-html/html-header-tag.htm">&lt;header&gt;</a>
+                        <a href="/learn-Example-html/html-hgroup-tag.htm">&lt;hgroup&gt;</a>
+                        <a href="/learn-Example-html/html-hr-tag.htm">&lt;hr&gt;</a>
+                        <a href="/learn-Example-html/html-html-tag.htm">&lt;html&gt;</a>
+                        <a href="/learn-Example-html/html-i-tag.htm">&lt;i&gt;</a>
+                        <a href="/learn-Example-html/html-iframe-tag.htm">&lt;iframe&gt;</a>
+                        <a href="/learn-Example-html/html-img-tag.htm">&lt;img&gt;</a>
+                        <a href="/learn-Example-html/html-input-tag.htm">&lt;input&gt;</a>
+                        <a href="/learn-Example-html/html-ins-tag.htm">&lt;ins&gt;</a>
+                        <a href="/learn-Example-html/html-isindex-tag.htm">&lt;isindex&gt;</a>
+                        <a href="/learn-Example-html/html-kbd-tag.htm">&lt;kbd&gt;</a>
+                        <a href="/learn-Example-html/html-keygen-tag.htm">&lt;keygen&gt;</a>
+                        <a href="/learn-Example-html/html-label-tag.htm">&lt;label&gt;</a>
+                        <a href="/learn-Example-html/html-legend-tag.htm">&lt;legend&gt;</a>
+                        <a href="/learn-Example-html/html-li-tag.htm">&lt;li&gt;</a>
+                        <a href="/learn-Example-html/html-link-tag.htm">&lt;link&gt;</a>
+                        <a href="/learn-Example-html/html-main-tag.htm">&lt;main&gt;</a>
+                        <a href="/learn-Example-html/html-map-tag.htm">&lt;map&gt;</a>
+                        <a href="/learn-Example-html/html-mark-tag.htm">&lt;mark&gt;</a>
+                        <a href="/learn-Example-html/html-marquee-tag.htm">&lt;marquee&gt;</a>
+                        <a href="/learn-Example-html/html-menu-tag.htm">&lt;menu&gt;</a>
+                        <a href="/learn-Example-html/html-menuitem-tag.htm">&lt;menuitem&gt;</a>
+                        <a href="/learn-Example-html/html-meta-tag.htm">&lt;meta&gt;</a>
+                        <a href="/learn-Example-html/html-meter-tag.htm">&lt;meter&gt;</a>
+                        <a href="/learn-Example-html/html-nav-tag.htm">&lt;nav&gt;</a>
+                        <a href="/learn-Example-html/html-nobr-tag.htm">&lt;nobr&gt;</a>
+                        <a href="/learn-Example-html/html-noframes-tag.htm">&lt;noframes&gt;</a>
+                        <a href="/learn-Example-html/html-noscript-tag.htm">&lt;noscript&gt;</a>
+                        <a href="/learn-Example-html.htm?">&lt;object&gt;</a>
+                        <a href="/learn-Example-html/html-ol-tag.html">&lt;ol&gt;</a>
+                        <a href="/learn-Example-html/html-optgroup-tag.htm">&lt;optgroup&gt;</a>
+                        <a href="/learn-Example-html/html-option-tag.htm">&lt;option&gt;</a>
+                        <a href="/learn-Example-html/html-output-tag.htm">&lt;output&gt;</a>
+                        <a href="/learn-Example-html/html-p-tag.htm">&lt;p&gt;</a>
+                        <a href="/learn-Example-html/html-param-tag.htm">&lt;param&gt;</a>
+                        <a href="/learn-Example-html/html-plaintext-tag.htm">&lt;plaintext&gt;</a>
+                        <a href="/learn-Example-html/html-picture-tag.htm">&lt;picture&gt;</a>
+                        <a href="/learn-Example-html/html-pre-tag.html">&lt;pre&gt;</a>
+                        <a href="/learn-Example-html/html-progress-tag.htm">&lt;progress&gt;</a>
+                        <a href="/learn-Example-html/html-q-tag.htm">&lt;q&gt;</a>
+                        <a href="/learn-Example-html/html-rb-tag.htm">&lt;rb&gt;</a>
+                        <a href="/learn-Example-html/html-rp-tag.htm">&lt;rp&gt;</a>
+                        <a href="/learn-Example-html/html-rt-tag.htm">&lt;rt&gt;</a>
+                        <a href="/learn-Example-html/html-rtc-tag.htm">&lt;rtc&gt;</a>
+                        <a href="/learn-Example-html/html-ruby-tag.htm">&lt;ruby&gt;</a>
+                        <a href="/learn-Example-html/html-s-tag.htm">&lt;s&gt;</a>
+                        <a href="/learn-Example-html/html-samp-tag.htm">&lt;samp&gt;</a>
+                        <a href="/learn-Example-html/html-script-tag.htm">&lt;script&gt;</a>
+                        <a href="/learn-Example-html/html-section-tag.htm">&lt;section&gt;</a>
+                        <a href="/learn-Example-html/html-select-tag.htm">&lt;select&gt;</a>
+                        <a href="/learn-Example-html/html-small-tag.htm">&lt;small&gt;</a>
+                        <a href="/learn-Example-html/html-source-tag.htm">&lt;source&gt;</a>
+                        <a href="/learn-Example-html/html-spacer-tag.htm">&lt;spacer&gt;</a>
+                        <a href="/learn-Example-html/html-span-tag.htm">&lt;span&gt;</a>
+                        <a href="/learn-Example-html/html-strike-tag.htm">&lt;strike&gt;</a>
+                    </li><li class="flex flex-col gap-1.5">
+                        <a href="/learn-Example-html/html-strong-tag.htm">&lt;strong&gt;</a>
+                        <a href="/learn-Example-html/html-style-tag.htm">&lt;style&gt;</a>
+                        <a href="/learn-Example-html/html-sub-tag.htm">&lt;sub&gt;</a>
+                        <a href="/learn-Example-html/html-summary-tag.htm">&lt;summary&gt;</a>
+                        <a href="/learn-Example-html/html-sup-tag.htm">&lt;sup&gt;</a>
+                        <a href="/learn-Example-html/html-svg-tag.htm">&lt;svg&gt;</a>
+                        <a href="/learn-Example-html/html-table-tag.htm">&lt;table&gt;</a>
+                        <a href="/learn-Example-html/html-tbody-tag.htm">&lt;tbody&gt;</a>
+                        <a href="/learn-Example-html/html-td-tag.htm">&lt;td&gt;</a>
+                        <a href="/learn-Example-html/html-template-tag.htm">&lt;template&gt;</a>
+                        <a href="/learn-Example-html/html-textarea-tag.htm">&lt;textarea&gt;</a>
+                        <a href="/learn-Example-html/html-tfoot-tag.htm">&lt;tfoot&gt;</a>
+                        <a href="/learn-Example-html/html-th-tag.htm">&lt;th&gt;</a>
+                        <a href="/learn-Example-html/html-thead-tag.htm">&lt;thead&gt;</a>
+                        <a href="/learn-Example-html/html-time-tag.htm">&lt;time&gt;</a>
+                        <a href="/learn-Example-html/html-title-tag.htm">&lt;title&gt;</a>
+                        <a href="/learn-Example-html/html-tr-tag.htm">&lt;tr&gt;</a>
+                        <a href="/learn-Example-html/html-track-tag.htm">&lt;track&gt;</a>
+                        <a href="/learn-Example-html/html-tt-tag.htm">&lt;tt&gt;</a>
+                        <a href="/learn-Example-html/html-u-tag.htm">&lt;u&gt;</a>
+                        <a href="/learn-Example-html/html-ul-tag.htm">&lt;ul&gt;</a>
+                        <a href="/learn-Example-html/html-var-tag.htm">&lt;var&gt;</a>
+                        <a href="/learn-Example-html/html-video.htm">&lt;video&gt;</a>
+                        <a href="/learn-Example-html/html-wbr-tag.htm">&lt;wbr&gt;</a>
+                        <a href="/learn-Example-html/html-xmp-tag.htm">&lt;xmp&gt;</a></li>
+                        <li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							Canvas Tutorial
+						</strong>
+                        <a href="/learn-Example-html/canvas.htm">Canvas Intro</a>
+                        <a href="/learn-Example-html/canvas-drawing.htm">Canvas Drawing</a>
+                        <a href="/learn-Example-html/coordinates.htm">Canvas Coordinates</a>
+                        <a href="/learn-Example-html/canvas-Gradients.htm">Canvas Gradients</a>
+                        <a href="/learn-Example-html/canvas-text.htm">Canvas Text</a>
+                        <a href="/learn-Example-html/canvas-images.htm">Canvas Images</a>
+                        <a href="/learn-Example-htmlcanvas-reference.htm">Canvas Reference</a>
+                    </li><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							SVG Tutorial
+						</strong>
+                        <a href="/learn-Example-html/svg.htm">SVG Intro</a>
+                        <a href="/learn-Example-html/in-html5.htm">SVG in HTML5</a>
+                        <a href="/learn-Example-html/vgrectangle.htm">SVG Rectangle</a>
+                        <a href="/learn-Example-html/svg-circle.htm">SVG Circle</a>
+                        <a href="/learn-Example-html/svg-ellipse.htm">SVG Ellipse</a>
+                        <a href="/learn-Example-html/svg-line.htm">SVG Line</a>
+                        <a href="/learn-Example-html/svg-polygon.htm">SVG Polygon</a>
+                        <a href="/learn-Example-html/polyline.htm">SVG Polyline</a>
+                        <a href="/learn-Example-html/svg-path.htm">SVG Path</a>
+                        <a href="/learn-Example-html/svg-text.htm">SVG Text</a>
+                        <a href="/learn-Example-html/svg-stroking.htm">SVG Stroking</a>
+                        <a href="/learn-Example-html/svg-intro.htm">SVG Filters Intro</a>
+                        <a href="/learn-Example-html/ffects.htm">SVG Blur Effects</a>
+                        <a href="/learn-Example-html/drop-shadows.htm">SVG Drop Shadows</a>
+                        <a href="/learn-Example-html/svg-linear.htm">SVG Linear</a>
+                        <a href="/learn-Example-html/svg-radial.htm">SVG Radial</a>
+                        <a href="/learn-html/svg-reference.htm">SVG Reference</a>
+                    </li><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							HTML Attributes
+						</strong>
+                        <a href="/learn-Example-html/attributes.htm">Deprecated Attributes</a>
+                        <a href="/learn-Example-html/class-attribute.htm">HTML Class Attribute</a>
+                        <a href="/learn-Example-html/html-id-attribute.htm">HTML id Attribute</a>
+                    </li><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							HTML Medialearn
+						</strong>
+                        <a href="/learn-Example-html/multimedia.htm">HTML Multimedia</a>
+                        <a href="/learn-Example-html/videos.htm">HTML YouTube Videos</a></li><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							HTML Formslearn
+						</strong>
+                        <a href="/learn-Example-html/forms.htm">HTML Forms</a>
+                    </li><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							HTML Attribute
+						</strong>
+                        <a href="/learn-Example-html/attribute.htm">alt</a>
+                        <a href="/learn-Example-html/attribute.htm">async</a>
+                        <a href="/learn-Example-html/accept-.htm">accept</a>
+                        <a href="/learn-Example-html/content.htm">content</a>
+                        <a href="/learn-Example-html/contenteditable.htm">contenteditable</a>
+                        <a href="/learn-Example-html/controls.htm">controls</a>
+                        <a href="/learn-Example-html/coords.htm">coords</a>
+                        <a href="/learn-Example-html/disabled.htm">disabled</a>
+                        <a href="/learn-Example-html/download.htm">download</a>
+                        <a href="/learn-Example-html/draggable.htm">draggable</a>
+                        <a href="/learn-Example-html/html-autocomplete-attribute.htm">autocomplete</a>
+                        <a href="/learn-Example-html/autofocus.htm">autofocus</a>
+                        <a href="/learn-Example-html/html-defer.htm">defer</a>
+                        <a href="/learn-Example-html/attribute.htm">dir</a> 
+                        <a href="/learn-Example-html/colspan.htm">colspan</a> 
+                        <a href="/learn-Example-html/accessket.htm" >accesskey</a>
+                        <a href="/learn-Example-html/action-attribute.htm">action</a>
+                        <a href="/learn-Example-html/autoplay.htm">autoplay</a>
+                        <a href="/learn-Example-html/checked.htm">checked</a>
+                        <a href="/learn-Example-html/accept-charset.htm">accept-charset</a></li></ul></nav></div>			</div>
+		</div>
+	
+	<div class="xl:ml-60 pt-16 min-h-screen">
+
+		<div class="grid grid-cols-12 gap-4">
+			<div class="col-span-12 md:col-span-9 scroll-pt-16">
+					<div class="print:text-black print:bg-white">
+											<div itemprop="articleBody" class="prose dark:prose-invert lg:prose-lg max-w-none p-8">
+
+		<h1 itemprop="name">
+			Learn HTML
+		</h1>
+
+		<div class="book-image text-center">
+<img  src="/uploads/media/default/0001/05/805cddb75d8fdc035886bc8d78487eef8b3845bb.png" width="768" height="300" alt="Learn HTML" class="mx-auto"/>
+</div>
+
+<p>Here is a free HTML tutorial that will teach you HTML (HyperText Markup Language) to start creating your website step by step. You can find everything related to HTML illustrated with examples for each chapter separately to help you fully understand the markup language.</p>
+
+<p>HTML, an acronym for HyperText Markup Language, is a primary markup language for creating websites. It consists of a series of codes used to structure texts, images, and other content to be displayed in a browser.</p>
+<p>Our HTML Book consists of several sections that cover all the needed information to enrich your HMTL knowledge.</p>
+
+
+<h2>HTML Basics</h2>
+
+<p>In the HTML Basics section, you will have a full understanding of <a href="/learn-html/html-editors.html">Editors and Tools</a> that you need when working on building web pages. It will inform you about the professional editors that web developers use for coding.</p>
+
+<p>Elements are the fundamentals of HTML. Each HTML document is made of elements, which are defined using tags. <a href="/learn-html/html-elements.html">HTML Elements</a> teaches you the types of HTML elements. It also highlights the difference between HTML tags and HTML elements that are often confused.</p>
+
+<p><a href="/learn-html/html-basic.html">HTML Basic Tags</a> are used to structure website content (text, hyperlinks, images, media, etc). Tags only "instruct" browsers how to show the content of the web page. HTML Tags chapter suggests the most frequently used tags in HTML with their examples.</p>
+
+<p><a href="/learn-html/html-attributes.html">HTML Attributes</a> are added to an HTML element to provide additional information about it. Book suggests lots of examples and the list of the most used attributes.</p>
+
+<p><a href="/learn-html/html-tags-for-text-formatting.html">HTML Formatting</a> sophisticated chapter lets you explore the categories of formatting tags with a brief description and examples.</p>
+
+<p>Websites contain different types of links that take you directly to other pages or allow navigating to a specific part of the page. Find out how you can define hyperlinks in the <a href="/learn-html/html-links.html">HTML Links</a> chapter and how to use different attributes with links and how to apply links on the image.</p> 
+
+<p>Our next <a href="/learn-css/css-color-names.html">HTML Color Names</a> chapter shows the ways of changing the color of the text in HTML. Also, find a 216 cross-browser color palette used for creating pages of websites.</p>
+
+<p><a href="/learn-html/html-tables.html">HTML Tables</a> section suggests the list of deprecated attributes, which means that they are no longer used in the mentioned tags and are replaced by other alternative attributes.</p>
+
+<p><a href="/learn-html/html-scripts.html">HTML Scripts</a> section highlights the way to embed script or reference to an executable script within an HTML document and to trigger scripts.</p>
+
+
+<h2>HTML Templates</h2>
+
+<p>This part of the book provides a collection of HTML <a href="/learn-html/html-layout-templates.html">Layout Templates</a> and <a href="/learn-html/html-form-templates.html">Form Templates</a> that presents basic website layouts and various kinds of forms that are created using only HTML and CSS.</p>
+
+<p><a href="/learn-html/html5-introduction.html">HTML 5</a> includes the introduction to HTML, as well as suggesting the main benefits and content models. Each of these models describes the type of elements it contains. You can also find a list of <a href="/learn-html/html5-elements-reference.html">HTML5 Tags</a> with their descriptions and semantic elements presented with examples. HTML5 allows embedding audio files without connecting third-party plugins.</p>
+
+<h2>HTML References</h2>
+
+<p>The part suggests character sets that are required to show the HTML page correctly. You can find <a href="/learn-html/html-ascii.html">ASCII</a> printable characters with their equivalent HTML entity codes, <a href="/learn-html/html-iso-8859-1.html">ISO 8859-1</a> symbols, characters, the list of the <a href="/learn-html/html-unicode-reference.html">UTF-8</a> character codes, the collection of character entities, math symbols, Greek letters with their entity numbers and names. The chapter also covers <a href="/learn-html/http-methods.html">HTTP Methods</a>,<a href="/learn-html/http-status-messages.html"> HTTP Status Messages</a>, Table of <a href="/learn-html/mime-types.html">MIME Types</a> and <a href="/learn-html/table-of-html-tags.html">Table of HTML Tags</a> divided into categories. Another <a href="/learn-html/html-images.html">HTML Images</a> chapter provides required and recommended image attributes, image floating, and modern image formats to choose from. On the <a href="/learn-html/xhtml-extensible-hypertext-markup-language.html">XHTML</a> page, you will gain an understanding of benefits and the difference between HTML and XHTML.</p>
+
+<h2>HTML Tags</h2>
+
+<p>HTML Tags presents the largest section with all HTML tags, including the deprecated ones. In the <a href="/learn-html/deprecated-html-tags.html">Deprecated Tags</a> chapter, you will read about the set of HTML deprecated tags with their alternative suggestions. Two other chapters include <a href="/learn-html/global-attributes.html">HTML Global Attributes</a> and <a href="/learn-html/global-event-attributes.html">Event Attributes</a> where you can find everything related to these topics.</p>
+
+<p>In our website, you can find the <a href="/tools/editor">HTML editor</a>, where you can edit the HTML code, and click "Submit" to see the result.</p>
+
+<p>HTML is not so difficult, so we are sure you will enjoy learning. After successfully completing the HTML book, you will have a challenge!</p>
+
+<p>Test yourself with this <a href="/quiz-start/html-basic">HTML Basic Quiz</a> and see how much you have learned.</p>
+
+<p><a href="/learn-html/html-introduction.html">Start learning</a> just now!</p>
+
+				
+	</div>
+
+	<div class="mt-4 text-right pb-8 px-8">
+		<a href="/learn-html/html-introduction.html"
+		   class="chapter-top-nav btn btn-blue">Next ?</a>
+	</div>
+				</div>
+			</div>
+
+										<div class="col-span-3 hidden md:block pl-2 pt-8 border-l border-gray-200 dark:border-gray-700 right-aside">
+								<div>
+    <div style="min-height: 600px;">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1328390942002432"
+     crossorigin="anonymous"></script>
+<!-- Right Side 1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1328390942002432"
+     data-ad-slot="1048956047"
+     data-ad-format="vertical"
+     ></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+  <div class=" relative py-5 text-center" style="height:100%">
+        <div class="quizzes-new bg-gray-600 text-white" id="aside-quiz-block" style="margin: 20px auto; max-width: 200px;">
+        <a class="text-white" href="https://www.w3docs.com/quiz/" style="display: block;
+text-align: center;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+padding: 10px 20px;
+font-family: Poppins, sans-serif;
+font-style: normal;">
+            Quizzes
+        </a>
+        <div class="text-gray-800 dark:text-white flex flex-col gap-1.5 items-center p-2 bg-gray-100 dark:bg-slate-800">
+
+            <a href="https://www.w3docs.com/quiz-start/html-basic">
+                HTML Basic
+            </a>
+
+            <a href="https://www.w3docs.com/quiz-start/angular">
+                Angular  Basic
+            </a>
+            <a href="https://www.w3docs.com/quiz-start/react">
+                React Basic
+            </a>
+
+            <a href="https://www.w3docs.com/quiz-start/git">
+                Git Basic
+            </a>
+
+            <a href="https://www.w3docs.com/quiz-start/css-basic">
+                CSS Basic
+            </a>
+
+            <a href="https://www.w3docs.com/quiz-start/javascript-basic">
+                JavaScript Basic
+            </a>
+
+            <a href="https://www.w3docs.com/quiz-start/ts-quiz">
+                TypeScript Basic
+            </a>
+
+            <a href="https://www.w3docs.com/quiz-start/es6-basic">
+                ES6 Basic
+            </a>
+
+            <a href="https://www.w3docs.com/quiz-start/vuejs">
+                Vue.js Basic
+            </a>
+
+            <a href="https://www.w3docs.com/quiz-start/php-basic">
+                PHP Basic
+            </a>
+
+        </div>
+    </div>
+  </div>
+</div>
+
+ <div style="position: sticky;  top: 100px;  margin-bottom: 35px;">
+           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1328390942002432"
+     crossorigin="anonymous"></script>
+<!-- Content Sticky -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1328390942002432"
+     data-ad-slot="8443800953"
+     data-ad-format="vertical"
+     ></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+      </div>
+					</div>
+					</div>
+
+					<div class="bg-blue-steel dark:bg-slate-900 dark:border-t border-gray-700 text-white dark:text-slate-400 print:hidden">
+				<footer class="layout-footer">
+	<div class="p-6 inline-block lg:pl-20 w-full lg:w-11/12">
+
+		<div class="pb-4 hover:[&>ul>li>ul>li>a]:text-blue-400">
+			        <ul class="flex flex-wrap justify-start sm:justify-evenly gap-12 md:gap-16">
+            
+                            <li class="first">        <span class="text-blue-500 mb-4 block text-lg">Quizzes</span>                <ul class="flex flex-col gap-1.5 menu_level_1">
+            
+                <li class="first">        <a href="/quiz-start/html-basic">HTML Basic</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/css-basic">CSS Basic</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/javascript-basic">Javascript Basic</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/php-basic">PHP basic</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/es6-basic">ES6 Basic</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/ts-quiz">TypeScript Basic</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/angular">Angular  Basic</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/react">React  Basic</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/sass">Sass  Basic</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/vuejs">Vue.js  Basic</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/git">Git  Basic</a>        
+    </li>
+
+    
+                <li class="last">        <a href="/quiz-start/sql">SQL  Basic</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li>        <span class="text-blue-500 mb-4 block text-lg">Snippets</span>                <ul class="flex flex-col gap-1.5 menu_level_1">
+            
+                <li class="first">        <a href="/snippets/nodejs.html">How To NodeJs</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/linux.html">How To Linux</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/angularjs.html">How To AngularJs</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/php.html">How To PHP</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/html.html">How To HTML</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/css.html">How To CSS</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/symfony.html">How To Symfony</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/google-maps.html">How To Google Maps</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/git.html">How To Git</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/apache.html">How To Apache</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/javascript.html">How To JavaScript</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/java.html">How To Java</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/vue-js.html">How To Vue.js</a>        
+    </li>
+
+    
+                <li class="last">        <a href="/snippets/python.html">How To Python</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li>        <span class="text-blue-500 mb-4 block text-lg">Our Books</span>                <ul class="flex flex-col gap-1.5 menu_level_1">
+            
+                <li class="first">        <a href="/learn-html.html">Learn HTML</a>        
+    </li>
+
+    
+                <li>        <a href="/learn-css.html">Learn CSS</a>        
+    </li>
+
+    
+                <li>        <a href="/learn-git.html">Learn Git</a>        
+    </li>
+
+    
+                <li>        <a href="/learn-javascript.html">Learn Javascript</a>        
+    </li>
+
+    
+                <li>        <a href="/learn-php.html">Learn PHP</a>        
+    </li>
+
+    
+                <li>        <span class="text-blue-500 mb-3 mt-5 block text-lg">Exercises</span>        
+    </li>
+
+    
+                <li>        <a href="/exercise/html">HTML</a>        
+    </li>
+
+    
+                <li>        <a href="/exercise/javascript">JavaScript</a>        
+    </li>
+
+    
+                <li>        <a href="/exercise/git">Git</a>        
+    </li>
+
+    
+                <li>        <a href="/exercise/css">CSS</a>        
+    </li>
+
+    
+                <li class="last">        <a href="/exercise/php">PHP</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li>        <span class="text-blue-500 mb-4 block text-lg">Our Tools</span>                <ul class="flex flex-col gap-1.5 menu_level_1">
+            
+                <li class="first">        <a href="/keyboard">Typing Test</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/color-picker">Color Picker</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/html-encoder/">HTML Encoder</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/editor">HTML Editor</a>        
+    </li>
+
+    
+                <li>        <a href="/css3-maker/border-radius">CSS Maker</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/password-generator">Password Generator</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/image-base64">Base 64</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/code-diff/">Code Diff</a>        
+    </li>
+
+    
+                <li>        <a href="/nx/json-beautify">JSON Beautifier</a>        
+    </li>
+
+    
+                <li class="last">        <a href="/nx/css-beautify">CSS Beautifier</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class="last">        <span class="text-blue-500 mb-4 block text-lg">String Functions</span>                <ul class="flex flex-col gap-2 menu_level_1">
+            
+                <li class="first">        <a href="/tools/string-length-calculator">String Length Calculator</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-md5-generator">String to MD5 Hash Generator</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-sha256-generator">String to Sha256 Hash Generator</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-revers">String Reverse</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-url-encoder">URL Encoder</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-url-decoder">URL Decoder</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-base64-encoder">Base 64 Encoder</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-base64-decoder">Base 64 Decoder</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-remove-extra-spaces">Extra Spaces Remover</a>        
+    </li>
+
+    
+                <li class="last">        <a href="/tools/string-convert-lowercase">String to Lowercase Converter</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+
+    </ul>
+
+		</div>
+
+		<div class="py-8 border-t border-gray-700 flex gap-4 flex-col md:flex-row items-center md:justify-between">
+			<div>
+				        <ul class="flex gap-4">
+            
+                <li class="first">        <a href="/about-us">About Us</a>        
+    </li>
+
+    
+                <li class="last">        <a href="/privacy-policy">Privacy Policy for W3Docs</a>        
+    </li>
+
+
+    </ul>
+
+			</div>
+
+			<a href="/" aria-label="w3docs homepage">
+				<img src="/build/images/footer-logo.png"
+				     alt="logo"
+				     width="111"
+				     height="30" />
+
+			</a>
+
+			<div class="flex gap-2">
+				<strong>Follow Us</strong>
+				<a id="follows-fb" href="https://www.facebook.com/w3docs" target="_blank"
+				   aria-label="follow on facebook" rel="noopener">
+					<img src="/build/images/facebook.svg" width="24" alt="facebook" />
+				</a>
+
+				<a id="follows-tt" href="https://twitter.com/w3docs" target="_blank"
+				   aria-label="follow on twitter"
+				   rel="noopener">
+					<img src="/build/images/twitter.svg" width="24" alt="twitter" />
+				</a>
+			</div>
+
+		</div>
+		<div class="pt-8 text-center border-t border-gray-700">
+			<small>Company &copy; W3docs. All rights reserved.</small>
+		</div>
+	</div>
+</footer>
+
+			</div>
+			</div>
+
+</div>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+    
+</body>
+</html>
